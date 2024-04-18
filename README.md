@@ -28,6 +28,3 @@ After starting the application, access it by navigating to `http://localhost:850
 
 - **Facility Selection:** Plans are in place to add a feature allowing users to select different CHLA facilities from which they want to view or analyze data. This enhancement will help in providing more tailored predictions based on specific facility characteristics and historical performance.
 
-## Contributing
-
-Contributions to this project are welcome! Please fork this repository, make your changes, and submit a pull request with your improvements.
