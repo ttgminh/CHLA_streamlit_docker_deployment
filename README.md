@@ -10,6 +10,24 @@ This repository hosts a Streamlit-based web application for predicting no-show p
 
 ## Installation and Setup
 
-1. **Build the Docker container:**
+1. **Build the Docker image:**
    ```bash
-   docker build -t chla-prediction .
+   docker build -t chlaprediction .
+2. **Run the Application**
+   ```bash
+   docker run -p 8501:8501 chla-prediction
+
+## Usage
+
+After starting the application, access it by navigating to `http://localhost:8501` in your web browser. Through the web interface, you can:
+
+- **Select Date Ranges:** Input start and end dates to analyze the likelihood of no-shows for appointments within that range.
+- **View Predictions:** After entering the dates, the application processes the data and displays predictions of no-show probabilities.
+
+## Future Improvements
+
+- **Facility Selection:** Plans are in place to add a feature allowing users to select different CHLA facilities from which they want to view or analyze data. This enhancement will help in providing more tailored predictions based on specific facility characteristics and historical performance.
+
+## Contributing
+
+Contributions to this project are welcome! Please fork this repository, make your changes, and submit a pull request with your improvements.
